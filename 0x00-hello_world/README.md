@@ -40,3 +40,9 @@
     - Warnings are allowed
     - Your program should return 0
     - You might have to install the package **libc6-dev-i386** on your Linux (Vagrant) to test the <code> -m32 </code> gcc option
+
+100-intel generates the assembly code (Intel syntax) of a C code and save it in an output file.
+
+    - The C file name will be saved in the variable $CFILE.
+    - The output file should be named the same as the C file, but with the extension .s instead of .c.
+    - Example: if the C file is main.c, the output file should be main.s
