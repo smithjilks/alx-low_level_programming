@@ -1,9 +1,13 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Printing using puts
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
-    char outputString[] = "\"Programming is like building a multilingual puzzle\n";
-     
-    puts(outputString);
-    return (0);
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
