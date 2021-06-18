@@ -1,11 +1,12 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
  * author: Jilks Smith
  *
  * file: 0-positive_or_negative.c
  */
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+
 /**
  * main - Entry point
  *
