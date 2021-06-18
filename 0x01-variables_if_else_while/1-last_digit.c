@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*file: 0-positive_or_negative.c*/
+/*file: 1-last_digit*/
 /**
  * main - prints whether a random number n is positive or negative.
  *
