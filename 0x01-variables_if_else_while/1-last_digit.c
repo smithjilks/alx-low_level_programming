@@ -1,15 +1,9 @@
-
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/*file: 0-positive_or_negative.c*/
 /**
- * author: Jilks Smith
- *
- * file: 0-positive_or_negative.c
- */
-
-/**
- * main - Entry point
+ * main - prints whether a random number n is positive or negative.
  *
  * Return: Always 0 (Success)
  */
