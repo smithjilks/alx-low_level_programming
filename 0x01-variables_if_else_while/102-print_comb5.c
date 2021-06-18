@@ -9,11 +9,10 @@ int main(void)
 {
 	int a, b, c, d;
 
-    a = 48; 
-    b = 48;
-    c = 48;
-    d = 49;
-
+a = 48;
+b = 48;
+c = 48;
+d = 49;
 	while (a < 58)
 	{
 		while (b < 58)
@@ -27,10 +26,7 @@ int main(void)
 					putchar(' ');
 					putchar(c);
 					putchar(d);
-					if (!(a == 57 &&
-						b == 56 &&
-						c == 57 &&
-						d == 57))
+					if (!(a == 57 && b == 56 && c == 57 && d == 57))
 					{
 						putchar(',');
 						putchar(' ');
