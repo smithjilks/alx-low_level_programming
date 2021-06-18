@@ -1,6 +1,7 @@
 /**
  * author: Jilks Smith
- * 
+ *
+ * file: 0-positive_or_negative.c
  */
 #include <stdlib.h>
 #include <time.h>
@@ -8,9 +9,6 @@
 /**
  * main - Entry point
  *
- * Prints whether a random number is positive,
- * negative or zero
- * 
  * Return: Always 0 (Success)
  */
 int main(void)
