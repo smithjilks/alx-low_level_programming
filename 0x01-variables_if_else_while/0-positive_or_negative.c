@@ -1,15 +1,17 @@
 /**
- * Auth: Jilks Smith
+ * author: Jilks Smith
+ * 
  */
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Prints a random number
- * Classifies if it is positive, 
- * negative, or zero.
+ * main - Entry point
  *
- * Return: Always 0.
+ * Prints whether a random number is positive,
+ * negative or zero
+ * 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -18,10 +20,10 @@ srand(time(0));
 number = rand() - RAND_MAX / 2;
 
 if (number > 0)
-    printf("%d is positive\n", number);
+printf("%d is positive\n", number);
 else if (number < 0)
-    printf("%d is negative\n", number);
+printf("%d is negative\n", number);
 else
-    printf("%d is zero\n", number);
+printf("%d is zero\n", number);
 return (0);
 }
