@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "holberton.h"
 /*file: 10-add.c*/
 /**
