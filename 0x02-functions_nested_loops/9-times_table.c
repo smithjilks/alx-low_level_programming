@@ -15,20 +15,20 @@ void times_table(void)
 		{
 			if ((i * n) < 10)
 			{
-				putchar((i * n) + '0');
+				_putchar((i * n) + '0');
 			}
 			else
 			{
-				putchar(((n * i) / 10)  + '0');
-				putchar(((n * i) % 10) + '0');
+				_putchar(((n * i) / 10)  + '0');
+				_putchar(((n * i) % 10) + '0');
 			}
 
 			if (n != 9)
 			{
-				putchar(',');
-				putchar(' ');
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
