@@ -10,7 +10,7 @@ int main(void)
 	char str[] = "Holberton";
 	int i, n;
 
-	n = sizeof(str) / sizeof(str[0]);
+	n = (sizeof(str) / sizeof(str[0])) - 1;
 	for (i = 0; i < n; i++)
 	{
 		_putchar(str[i]);
