@@ -13,3 +13,9 @@
 
         - Prototype: <code>void print_alphabet_x10(void);</code>
         - You can only use **_putchar** twice in your code
+
+3-islower.c checks for lowercase character.
+
+        - Prototype: <code>int _islower(int c);</code>
+        - Returns 1 if c is lowercase
+        - Returns 0 otherwise
