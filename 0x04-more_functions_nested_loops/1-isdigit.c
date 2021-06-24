@@ -9,7 +9,11 @@
  */
 int _isdigit(int c)
 {
-	if (c >= 0 && c <= 9)
+	int val;
+
+	val = c + '0';
+
+	if (val >= 48 && c <= 57)
 		return (1);
 	return (0);
 }
