@@ -19,6 +19,6 @@ int main(void)
 			f = i;
 		}
 	}
-	printf("%ld \n", f);
+	printf("%ld\n", f);
 	return (0);
 }
