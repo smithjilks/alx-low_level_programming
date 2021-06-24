@@ -8,7 +8,7 @@ int main(void)
 	int i;
 
 	i = 0;
-	postive_ot_negative(i);
+	postive_or_negative(i);
 
 	return (0);
 }
