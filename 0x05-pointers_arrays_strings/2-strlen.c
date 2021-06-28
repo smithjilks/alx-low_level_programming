@@ -1,5 +1,5 @@
 #include "holberton.h"
-/*file: 1-isdigit.c*/
+/*file: 2-strlen.c*/
 /**
  * _strlen - checks for a digit 0 through 9
  *

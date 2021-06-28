@@ -1,7 +1,7 @@
 #include "holberton.h"
 /*file: 3-puts.c*/
 /**
- * _puts - checks for a digit 0 through 9
+ * _puts - prints a string followed by a new line to stdout
  *
  * @str: parameter for the _puts function
  *
