@@ -9,26 +9,23 @@
  */
 char *leet(char *str)
 {
-	int i = 0;
+	int i, j;
+	int lower[] = {97, 101, 111, 116, 108};
+	int upper[] = {65, 69, 79, 84, 76};
+	int a[] = {52, 51, 48, 55, 49};
 
-	while (*(str + i) != '\0')
+	j = 0;
+	while (*(str + j) != '\0')
 	{
-		if (*(str + i) == 65 || *(str + i) == 97)
-			*(str + i) = 52;
-
-		if (*(str + i) == 69 || *(str + i) == 101)
-			*(str + i) = 51;
-
-		if (*(str + i) == 79 || *(str + i) == 111)
-			*(str + i) = 48;
-
-		if (*(str + i) == 84 || *(str + i) == 116)
-			*(str + i) = 55;
-
-		if (*(str + i) == 76 || *(str + i) == 108)
-			*(str + i) = 49;
-
-		i++;
+		for (i = 0; i < 5; i++)
+		{
+			if (*(str + j) == lower[i] || *(str + j) == upper[i])
+			{
+				*(str + j) = a[i];
+				break;
+			}
+		}
+		j++;
 	}
 
 	return (str);
