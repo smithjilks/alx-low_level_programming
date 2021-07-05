@@ -7,10 +7,8 @@
  * @s : string parameter
  * @accept : bytes to compare in s
  *
- * Return : number of bytes from initial segment
- *
+ * Return: i, number of accepted bytes
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i, j, n;
