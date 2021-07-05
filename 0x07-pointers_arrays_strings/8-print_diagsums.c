@@ -21,5 +21,5 @@ void print_diagsums(int *a, int size)
 			antidiagSum += *(a + i);
 	}
 
-	printf("%d, %d", leadingSum, antidiagSum);
+	printf("%d, %d\n", leadingSum, antidiagSum);
 }
