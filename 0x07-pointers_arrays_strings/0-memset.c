@@ -6,9 +6,9 @@
  *
  * @s : pointer parameter of the _memset funtion
  * @n : integer parameter of the number of bytes that of the memory area
- * @b : paamter to be filled in the first n bytes of memory s
+ * @b : paramter to be filled in the first n bytes of memory s
  *
- * return: pointer to memory s
+ * Return: pointer to memory s
  *
  */
 
