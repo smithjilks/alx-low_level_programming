@@ -4,8 +4,8 @@
 /**
  * alloc_grid - returns a pointer to a 2 dimensional array of integers.
  *
- * @width: string to be concatenated
- * @height: string to be concatenated
+ * @width: width of grid
+ * @height: height of grid
  *
  * Return: returns a pointer to a 2 dimensional array of integers.
  */
