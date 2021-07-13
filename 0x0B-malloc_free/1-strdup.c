@@ -22,9 +22,9 @@ char *_strdup(char *str)
 		i++;
 	}
 
-	ar = (char *)malloc(sizeof(char) * (i + 1));
+	ar = (char *)malloc(sizeof(char) * (i));
 
-	for (n = 0; n <= i; n++)
+	for (n = 0; n < i; n++)
 		ar[n] = str[n];
 
 	return (ar);
