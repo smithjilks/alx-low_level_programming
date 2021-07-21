@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 /*file: 2-int_index.c*/
 /**
- * print_nameint_index - prints a name.
+ * int_index - searches for an integer.
  *
  * @array: pointer to an array
  * @size: number of elements in the array array
