@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_recursion - recursive function
+ * print_bin - recursive function
  * @n: number
  * Return: void
  */
