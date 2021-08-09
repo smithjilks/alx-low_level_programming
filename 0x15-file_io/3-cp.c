@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * error_file - checks if files can be opened.
+ * error - checks if files can be opened.
  * @file_from: file to copy from
  * @file_to: file to copy to
  * @argv: arguments.
