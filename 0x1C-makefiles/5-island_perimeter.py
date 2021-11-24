@@ -16,6 +16,7 @@ def island_perimeter(grid):
 
 
 def get_surrounding_water(grid, i, j):
+    """Returns the number of sides surrounded by water"""
     water_sides = 0
 
     if grid[i][j + 1] == 0 or j >= len(grid[i]) - 1:
