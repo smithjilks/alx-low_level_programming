@@ -72,7 +72,7 @@ void print_array(int *array, int low, size_t size)
 	printf("Searching in array:");
 	for (; i < size; i++)
 	{
-		printf("%d", array[i]);
+		printf(" %d", array[i]);
 		if (i < size - 1)
 			printf(",");
 		else
